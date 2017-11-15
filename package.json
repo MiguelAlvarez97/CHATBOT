@@ -1,0 +1,19 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "description": "Chatbot",
+  "main": "ap.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiguelAlvarez97/CHATBOT.git"
+  },
+  "author": "Miguel Alvarez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MiguelAlvarez97/CHATBOT/issues"
+  },
+  "homepage": "https://github.com/MiguelAlvarez97/CHATBOT#readme"
+}
