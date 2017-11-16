@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/MiguelAlvarez97/CHATBOT/issues"
   },
-  "homepage": "https://github.com/MiguelAlvarez97/CHATBOT#readme"
+  "homepage": "https://github.com/MiguelAlvarez97/CHATBOT#readme",
+  "dependencies": {
+    "apiai": "^4.0.3",
+    "body-parser": "^1.18.2",
+    "config": "^1.28.1",
+    "express": "^4.16.2",
+    "request": "^2.83.0",
+    "uuid": "^3.1.0"
+  }
 }
