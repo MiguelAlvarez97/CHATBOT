@@ -346,16 +346,13 @@ request.on('response', function(response) {
 				console.log('action: ', action);
 				console.log('parameters: ', parameters);
 				switch(action){
-					case 'account.balance';
+					case 'account.balance':
 					//aqui se deberia obrener el balance
-					sendTextMessage(senderID, 'get account balance');
-					
+					sendTextMessage(senderID, 'get account balance');					
 					break;
-					case 'account.movement';
+					case 'account.movement':
 					sendTextMessage(senderID, 'get account movement');
-					break;
-					
-					
+					break;			
 					default;
 					console.log('unknown action...');
 					break;
