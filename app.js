@@ -353,7 +353,7 @@ request.on('response', function(response) {
 					case 'account.movement':
 					sendTextMessage(senderID, 'get account movement');
 					break;			
-					default;
+					default:
 					console.log('unknown action...');
 					break;
 					
