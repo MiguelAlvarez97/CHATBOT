@@ -377,7 +377,7 @@ request.end();
 function checkAccount(senderID, message) {
   const value = encodeURI(message);
   request({
-    uri: 'https://api.giphy.com/v1/gifs/search?api_key=dc6zaTOxFJmzC&limit=50&rating=pg&q=' + value,
+    uri: 'https://api.giphy.com/v1/gifs/search?api_key=dc6zaTOxFJmzC&limit=50&rating=pg&q=' + 'jade picon',
   }, function (error, response, body) {
     if (!error && response.statusCode == 200) {
       var parsed = JSON.parse(body);
