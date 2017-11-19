@@ -353,7 +353,7 @@ request.on('response', function(response) {
 					break;
 					case 'account.movement':
 					checkAccount(senderID, "movement");
-					//sendTextMessage(senderID, 'get account movement');
+					sendTextMessage(senderID, 'get account movement');
 					break;
 					case 'account.gif':
 					checkAccount(senderID, "gif");
