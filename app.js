@@ -356,7 +356,7 @@ request.on('response', function(response) {
 					sendTextMessage(senderID, 'get account movement');
 					break;
 					case 'account.gif':
-					checkAccount(senderID, "gif");
+					checkAccount(senderID, "hola");
 					default:
 					console.log('unknown action...');
 					break;
